@@ -1,0 +1,22 @@
+{
+    "name": "pandaxnm/yii2-dingtalk",
+    "description": "Use dingtalk robot to send message.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","dingtalk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pandaxnm",
+            "email": "023xcj@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-httpclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pandaxnm\\DingTalk\\": "src"
+        }
+    }
+}
